@@ -40,7 +40,7 @@ function vacation(peopleCount, typeOfGroup, dayOfWeek){
             break;
     }
 
-    console.log(`Total price: ${totalPrice}`)
+    console.log(`Total price: ${totalPrice.toFixed(2)}`)
 }
 
 vacation(30,
